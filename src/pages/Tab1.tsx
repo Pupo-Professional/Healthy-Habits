@@ -109,7 +109,7 @@ const Tab1: React.FC = () => {
               </IonCol>
 
               <IonCol size="6" size-sm="4" style={{}}>
-              <IonRouterLink routerLink="/nutritionpage">
+              <IonRouterLink routerLink="/sleeppage">
                 <IonCard>
                   <img alt="SleepHabits" src="./Images/SleepCard.png" />
                   <IonCardHeader>

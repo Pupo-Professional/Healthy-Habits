@@ -18,7 +18,7 @@ import { IoHome } from "react-icons/io5";
 import { BsFileBarGraph } from "react-icons/bs";
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
-
+import About from './pages/About';
 /* Basic CSS for apps built with Ionic */
 import '@ionic/react/css/normalize.css';
 import '@ionic/react/css/structure.css';
@@ -42,6 +42,7 @@ const App: React.FC = () => (
     <IonReactRouter>
       <IonTabs>
         <IonRouterOutlet>
+        <Route path="/about" component={About} exact />
           <Route exact path="/tab1">
             <Tab1 />
           </Route>

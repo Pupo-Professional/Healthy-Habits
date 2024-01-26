@@ -1,6 +1,6 @@
 // src/pages/CheckboxPage.tsx
 import React from 'react';
-import { IonContent, IonPage, IonList, IonItem, IonLabel, IonCheckbox } from '@ionic/react';
+import { IonContent, IonPage, IonList, IonItem, IonLabel, IonCheckbox, IonRouterLink } from '@ionic/react';
 import CheckboxItem from '../components/CheckboxItem';
 
 const Tab2: React.FC = () => {
@@ -12,6 +12,7 @@ const Tab2: React.FC = () => {
           <CheckboxItem label="Item 2" storageKey="item2" />
           {/* Add more CheckboxItem components as needed */}
         </IonList>
+        <IonRouterLink routerLink="/about">Go to About Page</IonRouterLink>
       </IonContent>
     </IonPage>
   );

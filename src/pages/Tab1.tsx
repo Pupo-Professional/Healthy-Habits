@@ -76,14 +76,14 @@ const Tab1: React.FC = () => {
         <IonGrid>
           <IonRow>
             <IonCol size="6" size-sm="4" style={{}}>
-              <IonCard>
-                <img alt="MentalHealth" src="./Images/MentalHealthCard.png" />
-                <IonCardHeader>
-                  <IonCardTitle>Mental Health</IonCardTitle>
-                </IonCardHeader>
-
-
-              </IonCard>
+              <IonRouterLink routerLink="/about">
+                <IonCard>
+                  <img alt="MentalHealth" src="./Images/MentalHealthCard.png" />
+                  <IonCardHeader>
+                    <IonCardTitle>Mental Health</IonCardTitle>
+                  </IonCardHeader>
+                </IonCard>
+              </IonRouterLink>
             </IonCol>
             <IonCol size="6" size-sm="4" style={{}}>
               <IonCard>

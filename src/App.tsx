@@ -9,16 +9,18 @@ import {
   IonTabs,
   setupIonicReact
 } from '@ionic/react';
+
 import { IonReactRouter } from '@ionic/react-router';
 import { ellipse, square, triangle, cog } from 'ionicons/icons';
 import Tab1 from './pages/Tab1';
 import Tab2 from './pages/Tab2';
 import Tab3 from './pages/Tab3';
+import About from './pages/MentalHealthPage';
+
 import { IoHome } from "react-icons/io5";
 import { BsFileBarGraph } from "react-icons/bs";
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
-import About from './pages/About';
 /* Basic CSS for apps built with Ionic */
 import '@ionic/react/css/normalize.css';
 import '@ionic/react/css/structure.css';

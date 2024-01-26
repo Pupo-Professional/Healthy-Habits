@@ -1,0 +1,22 @@
+ion-card {
+    height: auto;
+}
+ion-card-title {
+    font-size: 27px;
+}
+ion-row {
+    background-color: #7030a0;
+}
+ion-card-content {
+    background-color: #4c036b;
+    text-align: center;
+    color: white;
+}
+ion-card-header {
+    background-color: darkslateblue;
+    text-align: center;
+    color: ghostwhite;
+}
+ion-grid {
+    padding: inherit;
+}

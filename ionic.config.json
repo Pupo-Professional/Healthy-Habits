@@ -1,0 +1,7 @@
+{
+  "name": "HHabits",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

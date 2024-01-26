@@ -3,14 +3,14 @@
 import React from 'react';
 import { IonContent, IonPage, IonHeader, IonToolbar, IonTitle, IonButtons, IonBackButton } from '@ionic/react';
 
-const MentalHealthPage: React.FC = () => (
+const SleepPage: React.FC = () => (
   <IonPage>
     <IonHeader>
       <IonToolbar>
         <IonButtons slot="start">
           <IonBackButton />
         </IonButtons>
-        <IonTitle>Mental Health Page</IonTitle>
+        <IonTitle>Sleep Page</IonTitle>
       </IonToolbar>
     </IonHeader>
 
@@ -20,4 +20,4 @@ const MentalHealthPage: React.FC = () => (
   </IonPage>
 );
 
-export default MentalHealthPage;
+export default SleepPage;

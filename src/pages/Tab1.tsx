@@ -76,7 +76,7 @@ const Tab1: React.FC = () => {
         <IonGrid>
           <IonRow>
             <IonCol size="6" size-sm="4" style={{}}>
-              <IonRouterLink routerLink="/about">
+              <IonRouterLink routerLink="/mentalhealthpage">
                 <IonCard>
                   <img alt="MentalHealth" src="./Images/MentalHealthCard.png" />
                   <IonCardHeader>
@@ -85,39 +85,42 @@ const Tab1: React.FC = () => {
                 </IonCard>
               </IonRouterLink>
             </IonCol>
+
             <IonCol size="6" size-sm="4" style={{}}>
-              <IonCard>
-                <img alt="PhysicalHealth" src="./Images/PhysicalHealthCard.png" height="" />
-                <IonCardHeader>
-                  <IonCardTitle>Physical Health</IonCardTitle>
-                </IonCardHeader>
-
-
-              </IonCard>
+              <IonRouterLink routerLink="/physicalhealthpage">
+                <IonCard>
+                  <img alt="PhysicalHealth" src="./Images/PhysicalHealthCard.png" height="" />
+                  <IonCardHeader>
+                    <IonCardTitle>Physical Health</IonCardTitle>
+                  </IonCardHeader>
+                </IonCard>
+              </IonRouterLink>
             </IonCol>
-            <IonCol size="6" size-sm="4" style={{}}>
-              <IonCard>
-                <img alt="Nutrition" src="./Images/NutritionCard.png" />
-                <IonCardHeader>
-                  <IonCardTitle>Nutrition</IonCardTitle>
-                </IonCardHeader>
 
+              <IonCol size="6" size-sm="4" style={{}}>
+              <IonRouterLink routerLink="/nutritionpage">
+                <IonCard>
+                  <img alt="Nutrition" src="./Images/NutritionCard.png" />
+                  <IonCardHeader>
+                    <IonCardTitle>Nutrition</IonCardTitle>
+                  </IonCardHeader>
+                </IonCard>
+                </IonRouterLink>
+              </IonCol>
 
-              </IonCard>
-            </IonCol>
-            <IonCol size="6" size-sm="4" style={{}}>
-              <IonCard>
-                <img alt="SleepHabits" src="./Images/SleepCard.png" />
-                <IonCardHeader>
-                  <IonCardTitle>Sleep</IonCardTitle>
-                </IonCardHeader>
+              <IonCol size="6" size-sm="4" style={{}}>
+              <IonRouterLink routerLink="/nutritionpage">
+                <IonCard>
+                  <img alt="SleepHabits" src="./Images/SleepCard.png" />
+                  <IonCardHeader>
+                    <IonCardTitle>Sleep</IonCardTitle>
+                  </IonCardHeader>
+                </IonCard>
+                </IonRouterLink>
+              </IonCol>
 
-
-              </IonCard>
-            </IonCol>
           </IonRow>
         </IonGrid>
-
       </IonContent>
     </IonPage>
   );

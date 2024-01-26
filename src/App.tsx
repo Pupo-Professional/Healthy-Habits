@@ -16,6 +16,9 @@ import Tab1 from './pages/Tab1';
 import Tab2 from './pages/Tab2';
 import Tab3 from './pages/Tab3';
 import About from './pages/MentalHealthPage';
+import PhyscialHealthPage from './pages/PhysicalHealthPage';
+import NutritionPage from './pages/NutritionPage';
+import SleepPage from './pages/SleepPage';
 
 import { IoHome } from "react-icons/io5";
 import { BsFileBarGraph } from "react-icons/bs";
@@ -36,6 +39,7 @@ import '@ionic/react/css/display.css';
 const iconSize = 25;
 /* Theme variables */
 import './theme/variables.css';
+import MentalHealthPage from './pages/MentalHealthPage';
 
 setupIonicReact();
 
@@ -44,7 +48,10 @@ const App: React.FC = () => (
     <IonReactRouter>
       <IonTabs>
         <IonRouterOutlet>
-        <Route path="/about" component={About} exact />
+        <Route path="/mentalhealthpage" component={MentalHealthPage} exact />
+        <Route path="/physicalhealthpage" component={PhyscialHealthPage} exact />
+        <Route path="/nutritionpage" component={NutritionPage} exact />
+        <Route path="/sleeppage" component={SleepPage} exact />
           <Route exact path="/tab1">
             <Tab1 />
           </Route>

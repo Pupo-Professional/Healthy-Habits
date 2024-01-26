@@ -8,9 +8,12 @@ const Tab2: React.FC = () => {
     <IonPage>
       <IonContent className="ion-padding">
         <IonList>
-          <CheckboxItem label="Item 1" storageKey="item1" />
-          <CheckboxItem label="Item 2" storageKey="item2" />
-          {/* Add more CheckboxItem components as needed */}
+        <IonItem>
+            <IonCheckbox aria-label="Checkbox Label" />
+          </IonItem>
+          <IonItem>
+            <IonCheckbox aria-label="Checkbox Label" />
+          </IonItem>
         </IonList>
         <IonRouterLink routerLink="/about">Go to About Page</IonRouterLink>
       </IonContent>

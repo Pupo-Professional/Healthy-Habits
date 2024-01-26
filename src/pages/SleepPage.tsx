@@ -9,8 +9,8 @@ import {
   IonBackButton,
   IonList,
   IonItem,
-  IonLabel,
   IonCheckbox,
+  IonLabel,
 } from '@ionic/react';
 
 interface SleepPageState {
@@ -56,27 +56,33 @@ const SleepPage: React.FC = () => {
       <IonContent>
         <IonList>
           <IonItem>
-            <IonLabel>Do you have a consistent bedtime?</IonLabel>
             <IonCheckbox
+              slot="start"
               checked={sleepHabits.consistentBedtime}
               onIonChange={() => handleCheckboxChange('consistentBedtime')}
+              aria-label="Consistent Bedtime"
             />
+            <IonLabel>Do you have a consistent bedtime?</IonLabel>
           </IonItem>
 
           <IonItem>
-            <IonLabel>Do you experience restful sleep?</IonLabel>
             <IonCheckbox
+              slot="start"
               checked={sleepHabits.restfulSleep}
               onIonChange={() => handleCheckboxChange('restfulSleep')}
+              aria-label="Restful Sleep"
             />
+            <IonLabel>Do you experience restful sleep?</IonLabel>
           </IonItem>
 
           <IonItem>
-            <IonLabel>Do you avoid screens before bedtime?</IonLabel>
             <IonCheckbox
+              slot="start"
               checked={sleepHabits.avoidScreensBeforeBed}
               onIonChange={() => handleCheckboxChange('avoidScreensBeforeBed')}
+              aria-label="Avoid Screens Before Bedtime"
             />
+            <IonLabel>Do you avoid screens before bedtime?</IonLabel>
           </IonItem>
         </IonList>
       </IonContent>

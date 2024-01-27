@@ -1,0 +1,41 @@
+/* SleepPage.css */
+
+.color-square {
+    border-radius: 5px;
+  }
+  
+  .legend {
+    margin-top: 10px;
+  }
+  
+  .legend-item {
+    margin-bottom: 5px;
+    padding: 5px;
+  }
+  
+  .legend-orange {
+    background-color: orange;
+  }
+  
+  .legend-yellow {
+    background-color: yellow;
+  }
+  
+  .legend-greenyellow {
+    background-color: greenyellow;
+  }
+  
+  .legend-green {
+    background-color: green;
+  }
+  
+  .legend-brightgreen {
+    background-color: #00ff00; /* Bright Green */
+  }
+  
+  /* Add the following styles to ensure the progress bar color is applied */
+  ion-progress-bar {
+    --progress-background: var(--ion-color-light); /* Set the default background color */
+    --progress-background-hover: var(--ion-color-light);
+  }
+  

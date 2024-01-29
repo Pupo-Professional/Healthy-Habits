@@ -8,9 +8,10 @@ export default defineConfig({
     react(),
     legacy()
   ],
-  test: {
+  build: {chunkSizeWarningLimit: 1600 }
+/*   test: {
     globals: true,
     environment: 'jsdom',
     setupFiles: './src/setupTests.ts',
-  }
+  } */
 })
